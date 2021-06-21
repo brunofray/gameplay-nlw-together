@@ -4,6 +4,5 @@
 
 <h2> Tecnologias usadas </h2>
 
-- React
-- Next.JS
+- React Native
 - TypeScript
