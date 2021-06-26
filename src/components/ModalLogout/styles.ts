@@ -1,28 +1,25 @@
 import { StyleSheet } from 'react-native';
+
 import { theme } from '../../global/styles/theme';
 
 export const styles = StyleSheet.create({
   container: {
-    flexDirection: 'row',
-    alignItems: 'center',
+    flex: 1,
+    position: 'absolute',
+    left: 0,
+    right: 0,
+    bottom: 0,
   },
-  user: {
-    flexDirection: 'row',
+  overlay: {
+    flex: 1,
+    backgroundColor: theme.colors.overlay,
   },
-  greeting: {
-    fontFamily: theme.fonts.title500,
-    fontSize: 24,
-    color: theme.colors.heading,
-    marginRight: 6,
-  },
-  username: {
+  title: {
     fontFamily: theme.fonts.title700,
-    fontSize: 24,
+    fontSize: 20,
     color: theme.colors.heading,
-  },
-  message: {
-    fontFamily: theme.fonts.text400,
-    color: theme.colors.highlight,
+    textAlign: 'center',
+    marginVertical: 29,
   },
   buttons: {
     flex: 1,
